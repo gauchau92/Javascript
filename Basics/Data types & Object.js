@@ -56,3 +56,28 @@ console.log(product.name);
 console.log(product.price);
 console.log(product.barcode);
 console.log(product.rating); //undefined
+
+let x = 5;
+let y = "string";
+
+let z = console.log(x + y, typeof (x + y));
+// when we add a number and a string, the number is converted to a string and concatenated with the string
+// this is called type coercion
+
+const rainbow = {
+  color1: "red",
+  color2: "green",
+  color3: "blue",
+};
+
+rainbow["color4"] = "yellow"; // adding a new property to the object
+rainbow.color5 = "Violet";
+
+console.log(rainbow);
+console.log(typeof rainbow);
+console.log(typeof rainbow.color5);
+
+rainbow["color4"] = "purple"; // changing value of the property in the object
+console.log(rainbow);
+rainbow.color4 = "indogo";
+console.log(rainbow);
