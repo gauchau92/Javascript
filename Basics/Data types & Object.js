@@ -9,7 +9,7 @@ Data Types in JavaScript:-
    - BigInt (ES11)
    - Undefined
 */
-//! NNSSBBU:- No need of smart students but be unhappy.
+//! NNSSBBU:- No need of smart students but be unicorn.
 
 let a = null;
 let b = 345;
