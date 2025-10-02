@@ -1,0 +1,59 @@
+//! Basic Function Anatomy
+/*
+function functionName(parameters) {
+  code block
+  return result; // optional
+}
+
+calling now
+functionName(arguments)
+
+Parameters → placeholders (like variables inside function).
+Arguments → actual values you pass.
+Return → gives back the result; if missing, function returns undefined.
+
+
+//*! 1. Function Declaration
+
+function greet(name) {
+  return `Hello ` + name;
+}
+
+//*! 2. Function Expression
+
+const greet = function (name) {
+  return `Hello ` + name;
+};
+
+//*! 3. Arrow Functions (ES6+)
+const functionName = (parameters) => {
+  code
+  return result;
+};
+
+//*Super Short Form (when only one statement):-
+const greet = (name) => `Hello` + name;
+
+
+//*? Default Parameter
+
+function greet(name = "Guest") {
+  return "Hello " + name;
+}
+console.log(greet()); // Hello Guest
+
+*/
+
+const add = function (a, b) {
+  return a + b;
+};
+
+console.log(add(2, 3));
+
+const multi = (a, b) => {
+  return a * b;
+};
+console.log(multi(2, 3));
+
+// const multi = (a,b) => a*b; this also works same
+//! {} means you must use return.
