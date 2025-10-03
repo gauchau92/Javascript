@@ -44,3 +44,17 @@ for (i = 0; i < boy1.length; i++) {
   result += boy1[i];
 }
 console.log(result);
+
+//! Occurence of word
+
+let str1 = `please locate where 'locate' occurs.`;
+let pos = str1.indexOf(`locate`);
+console.log(pos); //! first occurence of locate
+let pos1 = str1.lastIndexOf(`locate`);
+console.log(pos1); //! last occurence of locate
+
+//! extract part of string
+
+let str2 = `please give me INR 1000`;
+let amount = Number.parseInt(str2.slice(`please give me INR `.length));
+console.log(amount, typeof amount);
