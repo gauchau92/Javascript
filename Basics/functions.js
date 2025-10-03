@@ -15,30 +15,30 @@ Return → gives back the result; if missing, function returns undefined.
 
 //*! 1. Function Declaration
 
-function greet(name) {
-  return `Hello ` + name;
+function greet(Param) {
+  return `Hello ` + Param;
 }
 
 //*! 2. Function Expression
 
-const greet = function (name) {
-  return `Hello ` + name;
+const greet = function (Param) {
+  return `Hello ` + Param;
 };
 
 //*! 3. Arrow Functions (ES6+)
-const functionName = (parameters) => {
+const function = (Param) => {
   code
   return result;
 };
 
 //*Super Short Form (when only one statement):-
-const greet = (name) => `Hello` + name;
+const greet = (Param) => `Hello` + Param;
 
 
 //*? Default Parameter
 
-function greet(name = "Guest") {
-  return "Hello " + name;
+function greet(Param = "Guest") {
+  return "Hello " + Param;
 }
 console.log(greet()); // Hello Guest
 
