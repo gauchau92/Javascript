@@ -4,9 +4,19 @@ for (i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 
-//! For-each loop-- runs through each element
+//! For-each loop-- returns undefined, runs through each element, index, and array
 arr.forEach((element) => {
   console.log(element ** 2);
+});
+
+let fruits = ["apple", "banana", "mango"];
+
+fruits.forEach(function (fruit, index) {
+  console.log(index, fruit);
+});
+
+fruits.forEach((fruit, index) => {
+  console.log(`${index}: ${fruit}`);
 });
 
 //! Array.From loop -- coneverts to arrey
