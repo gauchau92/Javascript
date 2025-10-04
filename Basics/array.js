@@ -56,4 +56,4 @@ console.log(arr5);
 console.log(arr5.length);
 
 //console.log(arr5.slice(3)); //! returns new array of sliced piece
-console.log(arr5.slice(3, 7)); //! returns new array of sliced piece start 2 to 6 (7 not included)
+console.log(arr5.slice(3, 7)); //! returns new array of sliced piece start 3 to 6 (7 not included)
