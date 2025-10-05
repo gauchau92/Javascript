@@ -37,15 +37,13 @@ let arr3 = [8, 9, 7];
 console.log(arr1.concat(arr2, arr3)); //! adds arrays
 console.log(arr1.concat(arr2, arr3).sort()); //! sort arrays
 
-//! sort func modifies the main arrays & sorts in alphanyumeric order so to overcome that we need to give compare function to actual sort in asending order.
+//! sort func modifies the main arrays & sorts in alphanumeric order so to overcome that we need to give compare function to actual sort in asending order.
 
 let arr4 = arr1.concat(arr2, arr3);
 console.log(arr4.sort((a, b) => a - b));
 
 //? or else create compare fun outside and call that
-
 const compare = (a, b) => a - b;
-
 console.log(arr4.sort(compare));
 
 console.log(arr4.reverse()); //! reverse the array
